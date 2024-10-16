@@ -22,6 +22,17 @@
 }
 
 
+h1, font {
+    font-family: "Lato", "Odoo Unicode Support Noto", sans-serif;
+    color: #0a0c0d;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 /* Home Section */
 .mh-sec-home {
     min-height: 900px;
@@ -80,6 +91,10 @@
     /*background-repeat: no-repeat no-repeat;*/
 }
 
+.mh-wwd {
+    font-family: "Lato", "Odoo Unicode Support Noto", sans-serif;
+}
+
 
 /* Services Section */
 
@@ -88,3 +103,19 @@
 /* About Us Section */
 
 /* Contact Us Section */
+
+.mh-contact-us {
+    display: flex;
+}
+
+.mh-contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mh-contact-lst {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
