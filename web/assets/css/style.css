@@ -1,16 +1,78 @@
 .nav-item {
-    width: 130px;
+    width: 100px;
     display: flex;
     justify-content: center;
     cursor: pointer;
     transition: background-color .2s ease-in-out;
+    color: rgba(0, 115, 204, 1);
+    border-radius: 5px;
 }
 
 .nav-item:hover {
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 115, 204, 1);
     color: #ffffff;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     color: #ffffff !important;
 }
+
+
+/* Home Section */
+.mh-sec-home {
+    min-height: 850px;
+    background-color: rgba(246, 241, 241, 0.2);
+}
+
+.mh-sec-home .mh-home-con {
+
+}
+
+.mh-sec-home .mh-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mh-sec-home .mh-home h1 {
+    font-weight: 700;
+    font-size: 3em;
+    word-break: break-word;
+    font-family: "Lato", "Odoo Unicode Support Noto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.mh-sec-home .mh-home mark {
+    color: #0073cc !important;
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 10rem;
+}
+
+.mh-sec-home .mh-home .btn-services {
+    background-color: #0078D4;
+    height: 45px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.mh-sec-home .mh-home .btn-services:hover {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+
+/* Services Section */
+
+/* Portfolio Section */
+
+/* About Us Section */
+
+/* Contact Us Section */
