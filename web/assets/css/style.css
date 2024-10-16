@@ -20,7 +20,7 @@
 
 /* Home Section */
 .mh-sec-home {
-    min-height: 850px;
+    min-height: 900px;
     background-color: rgba(246, 241, 241, 0.2);
 }
 
@@ -66,6 +66,12 @@
 
 .mh-sec-home .mh-home .btn-services:hover {
     background-color: rgba(0, 0, 0, 0.76);
+}
+
+.o_we_shape.o_web_home_background {
+    background-image: url("/web/static/image/mh-sec-background.svg");
+    /*background-size: 100% auto;*/
+    /*background-repeat: no-repeat no-repeat;*/
 }
 
 
