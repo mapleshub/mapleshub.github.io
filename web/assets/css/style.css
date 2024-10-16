@@ -105,9 +105,15 @@ h4 {
 
 /* Services Section */
 
-.mh-ser-card{
+.mh-ser-card {
+    background-color: rgb(232 224 224) !important;
     border: 2px solid rgba(207, 224, 232, 0.39);
+    border-radius: 5px;
+}
 
+.mh-ser-card:hover {
+    background-color: rgb(194 186 186) !important;
+    border: 2px solid rgba(207, 224, 232, 0.69);
 }
 
 /* Portfolio Section */
