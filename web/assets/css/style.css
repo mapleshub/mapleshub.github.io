@@ -297,5 +297,7 @@ span.fa-refresh {
 
 section {
     padding-top: 90px !important;
+    background-image: none;
+    position: relative;
 }
 
