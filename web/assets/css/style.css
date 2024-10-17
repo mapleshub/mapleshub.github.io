@@ -11,7 +11,7 @@
 #top_menu {
     display: flex;
     align-items: flex-end;
-    flex-direction: row;
+    /*flex-direction: row;*/
     justify-content: flex-end;
 }
 
@@ -29,7 +29,6 @@
 }
 
 .nav-item.active a {
-    /*background-color: rgba(0, 115, 204, 1);*/
     color: #ffffff !important;
 }
 
@@ -41,7 +40,6 @@
 .logo {
     color: #16A800 !important;
 }
-
 
 h1, font {
     font-family: "Lato", "Odoo Unicode Support Noto", sans-serif;
